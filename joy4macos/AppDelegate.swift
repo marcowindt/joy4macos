@@ -9,18 +9,30 @@ import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
     
-
+    var dsuServer: DSUServer?
+    var controllerService: ControllerService?
+    
+    var controllersTabViewController: ControllersTabViewController!
+    var serverTabViewController: ServerTabViewController!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        self.dsuServer = DSUServer()
+        self.controllerService = ControllerService(server: self.dsuServer!, onControllerCountChange: self.controllersTabViewController.onControllerCountChanged)
+        self.dsuServer!.setControllerService(controllerService: self.controllerService!)
+        self.dsuServer!.startServer(completion: self.serverTabViewController.onServerStateChange)
+        
+        self.controllersTabViewController.onControllerCountChanged()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        self.controllerService?.disconnectAll()
+        self.dsuServer?.stopServer(completion: self.serverTabViewController.onServerStateChange)
     }
-
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
 
 }
 

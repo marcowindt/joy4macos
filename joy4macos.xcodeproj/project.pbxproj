@@ -3,24 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8E56198A2650130C00841F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5619892650130C00841F83 /* AppDelegate.swift */; };
-		8E56198C2650130C00841F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E56198B2650130C00841F83 /* ViewController.swift */; };
 		8E56198E2650130F00841F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E56198D2650130F00841F83 /* Assets.xcassets */; };
 		8E5619912650130F00841F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E56198F2650130F00841F83 /* Main.storyboard */; };
+		8EE3373F2650168E002CDD44 /* DSUController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE3373E2650168E002CDD44 /* DSUController.swift */; };
+		8EE337412650172C002CDD44 /* DSUMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337402650172C002CDD44 /* DSUMessage.swift */; };
+		8EE33743265017B4002CDD44 /* ControllerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE33742265017B4002CDD44 /* ControllerService.swift */; };
+		8EE337452650181B002CDD44 /* DSUServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337442650181B002CDD44 /* DSUServer.swift */; };
+		8EE3374726501858002CDD44 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE3374626501858002CDD44 /* Client.swift */; };
+		8EE3374A2651A2EA002CDD44 /* JoyConL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337492651A2EA002CDD44 /* JoyConL.swift */; };
+		8EE3374C2651A306002CDD44 /* JoyConR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE3374B2651A306002CDD44 /* JoyConR.swift */; };
+		8EE3374E2651A32E002CDD44 /* ProController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE3374D2651A32E002CDD44 /* ProController.swift */; };
+		8EE337502651A4AE002CDD44 /* DSUUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE3374F2651A4AE002CDD44 /* DSUUtils.swift */; };
+		8EE337522651AD6B002CDD44 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337512651AD6B002CDD44 /* TabViewController.swift */; };
+		8EE337552651ADE7002CDD44 /* ControllersTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337542651ADE7002CDD44 /* ControllersTabViewController.swift */; };
+		8EE337572651AE22002CDD44 /* ServerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE337562651AE22002CDD44 /* ServerTabViewController.swift */; };
+		B37804EA6FEC8E0CED563059 /* Pods_joy4macos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD3363FB5924A8CD0AE9F2A /* Pods_joy4macos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AD3363FB5924A8CD0AE9F2A /* Pods_joy4macos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_joy4macos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE2217BA7667DD262911BCA /* Pods-joy4macos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joy4macos.release.xcconfig"; path = "Target Support Files/Pods-joy4macos/Pods-joy4macos.release.xcconfig"; sourceTree = "<group>"; };
 		8E5619862650130C00841F83 /* joy4macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joy4macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5619892650130C00841F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E56198B2650130C00841F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E56198D2650130F00841F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5619902650130F00841F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E5619922650130F00841F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E5619932650130F00841F83 /* joy4macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = joy4macos.entitlements; sourceTree = "<group>"; };
+		8EE3373E2650168E002CDD44 /* DSUController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUController.swift; sourceTree = "<group>"; };
+		8EE337402650172C002CDD44 /* DSUMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUMessage.swift; sourceTree = "<group>"; };
+		8EE33742265017B4002CDD44 /* ControllerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerService.swift; sourceTree = "<group>"; };
+		8EE337442650181B002CDD44 /* DSUServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUServer.swift; sourceTree = "<group>"; };
+		8EE3374626501858002CDD44 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		8EE337492651A2EA002CDD44 /* JoyConL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyConL.swift; sourceTree = "<group>"; };
+		8EE3374B2651A306002CDD44 /* JoyConR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyConR.swift; sourceTree = "<group>"; };
+		8EE3374D2651A32E002CDD44 /* ProController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProController.swift; sourceTree = "<group>"; };
+		8EE3374F2651A4AE002CDD44 /* DSUUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUUtils.swift; sourceTree = "<group>"; };
+		8EE337512651AD6B002CDD44 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		8EE337542651ADE7002CDD44 /* ControllersTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllersTabViewController.swift; sourceTree = "<group>"; };
+		8EE337562651AE22002CDD44 /* ServerTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTabViewController.swift; sourceTree = "<group>"; };
+		D16545D1F5D4221E3A82533F /* Pods-joy4macos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joy4macos.debug.xcconfig"; path = "Target Support Files/Pods-joy4macos/Pods-joy4macos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37804EA6FEC8E0CED563059 /* Pods_joy4macos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DBAB334462EEEA3DA035CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD3363FB5924A8CD0AE9F2A /* Pods_joy4macos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E56197D2650130C00841F83 = {
 			isa = PBXGroup;
 			children = (
 				8E5619882650130C00841F83 /* joy4macos */,
 				8E5619872650130C00841F83 /* Products */,
+				C1693ED7DE676BE398FC459A /* Pods */,
+				3DBAB334462EEEA3DA035CBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +90,50 @@
 		8E5619882650130C00841F83 /* joy4macos */ = {
 			isa = PBXGroup;
 			children = (
+				8EE337532651ADD1002CDD44 /* Tabs */,
+				8EE337482651A26D002CDD44 /* SupportedControllers */,
 				8E5619892650130C00841F83 /* AppDelegate.swift */,
-				8E56198B2650130C00841F83 /* ViewController.swift */,
 				8E56198D2650130F00841F83 /* Assets.xcassets */,
 				8E56198F2650130F00841F83 /* Main.storyboard */,
 				8E5619922650130F00841F83 /* Info.plist */,
 				8E5619932650130F00841F83 /* joy4macos.entitlements */,
+				8EE3373E2650168E002CDD44 /* DSUController.swift */,
+				8EE337402650172C002CDD44 /* DSUMessage.swift */,
+				8EE33742265017B4002CDD44 /* ControllerService.swift */,
+				8EE337442650181B002CDD44 /* DSUServer.swift */,
+				8EE3374626501858002CDD44 /* Client.swift */,
+				8EE3374F2651A4AE002CDD44 /* DSUUtils.swift */,
+				8EE337512651AD6B002CDD44 /* TabViewController.swift */,
 			);
 			path = joy4macos;
+			sourceTree = "<group>";
+		};
+		8EE337482651A26D002CDD44 /* SupportedControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EE337492651A2EA002CDD44 /* JoyConL.swift */,
+				8EE3374B2651A306002CDD44 /* JoyConR.swift */,
+				8EE3374D2651A32E002CDD44 /* ProController.swift */,
+			);
+			path = SupportedControllers;
+			sourceTree = "<group>";
+		};
+		8EE337532651ADD1002CDD44 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8EE337542651ADE7002CDD44 /* ControllersTabViewController.swift */,
+				8EE337562651AE22002CDD44 /* ServerTabViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		C1693ED7DE676BE398FC459A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16545D1F5D4221E3A82533F /* Pods-joy4macos.debug.xcconfig */,
+				5EE2217BA7667DD262911BCA /* Pods-joy4macos.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E5619962650130F00841F83 /* Build configuration list for PBXNativeTarget "joy4macos" */;
 			buildPhases = (
+				742547881EB0BF663587484D /* [CP] Check Pods Manifest.lock */,
 				8E5619822650130C00841F83 /* Sources */,
 				8E5619832650130C00841F83 /* Frameworks */,
 				8E5619842650130C00841F83 /* Resources */,
+				3D6A0603F1315229AF30475A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,13 +202,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D6A0603F1315229AF30475A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-joy4macos/Pods-joy4macos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-joy4macos/Pods-joy4macos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-joy4macos/Pods-joy4macos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		742547881EB0BF663587484D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-joy4macos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E5619822650130C00841F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E56198C2650130C00841F83 /* ViewController.swift in Sources */,
+				8EE337522651AD6B002CDD44 /* TabViewController.swift in Sources */,
+				8EE337412650172C002CDD44 /* DSUMessage.swift in Sources */,
+				8EE3374E2651A32E002CDD44 /* ProController.swift in Sources */,
+				8EE3374726501858002CDD44 /* Client.swift in Sources */,
+				8EE337502651A4AE002CDD44 /* DSUUtils.swift in Sources */,
+				8EE337572651AE22002CDD44 /* ServerTabViewController.swift in Sources */,
+				8EE337452650181B002CDD44 /* DSUServer.swift in Sources */,
+				8EE3373F2650168E002CDD44 /* DSUController.swift in Sources */,
+				8EE33743265017B4002CDD44 /* ControllerService.swift in Sources */,
+				8EE3374A2651A2EA002CDD44 /* JoyConL.swift in Sources */,
+				8EE337552651ADE7002CDD44 /* ControllersTabViewController.swift in Sources */,
 				8E56198A2650130C00841F83 /* AppDelegate.swift in Sources */,
+				8EE3374C2651A306002CDD44 /* JoyConR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +396,7 @@
 		};
 		8E5619972650130F00841F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16545D1F5D4221E3A82533F /* Pods-joy4macos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +418,7 @@
 		};
 		8E5619982650130F00841F83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE2217BA7667DD262911BCA /* Pods-joy4macos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
